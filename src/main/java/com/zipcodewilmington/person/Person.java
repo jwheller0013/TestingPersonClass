@@ -8,7 +8,7 @@ public class Person {
     private int age;
 
     public Person() {
-        Person person = new Person(name, age);
+        Person person = new Person("", Integer.MAX_VALUE);
     }
 
     public Person(int age) {
